@@ -1,0 +1,47 @@
+.top-container{
+    background-image: url(./images/donation6.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    background-position: center;
+    width: 100%;
+  
+}
+
+
+.header{
+    color: azure;
+    justify-content:center;
+    font-size: xx-large;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-top: 100px;
+ 
+
+}
+.paragraph{
+
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+    width: 350px;
+    z-index: 100;
+
+   
+    
+}
+.donate{
+    border: 400px;
+    text-align: center;
+    color: azure;
+    border-radius: 5px;
+    text-decoration: none;
+    background-image: linear-gradient(salmon,tomato);
+    
+}

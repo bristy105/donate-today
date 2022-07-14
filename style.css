@@ -105,7 +105,35 @@ h2{
 
 }
 .card-image1{
+    margin-top: 120px;
+    width: 300px;
+    height: 200px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 8px 8px 16px gray;
+   
+}
+.card-image1:hover{
+    border: 1px solid brown;
+    transition: 0.8ms;
+    margin-top: -20px;
+}
+.food-icon{
+    width: 50px;
     
-
-
+}
+.card-para{
+    margin-top: 5px;
+}
+.title1{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
 }

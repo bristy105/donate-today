@@ -1,74 +1,111 @@
+h1{
+  margin-top:120px;
+  margin-right: 20px;
+  font-family: 'Sacramento', cursive;
+  font-size: 80px;
+  color:  #66BFBF;
+  line-height:1em;
+  padding-left: 360px;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5 rem;
+    color:rgb(3, 67, 46);
+    font-weight:700;
+    margin-left: 580px;
+}
+.paragraph{
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 150px;
+    color:rgb(203, 6, 39);
+    font-size: x-large;
+    
+
+}
+
+.donate-button{
+    margin-top: 120px;
+    border: 15px;
+    border-radius: 20px;
+    background-color: rgb(227, 10, 90);
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 680px;
+    
+}
+.highlight{
+    color:rgb(15, 101, 176);
+    padding: 100px;
+}
+
 .top-container{
-    background-image: url(./images/donation5.jpg);
+    background-image: url(./images/donation7.jpg);
     height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
     background-position: center;
     width: 100%;
+    padding-top: 50px;
   
 }
 
-#title{
-    color: whitesmoke;
-}
-#donation{
-    color: black;
-}
-.importance{
-    color:hsl(341, 85%, 47%);
-}
-
-.header{
+.middle-container{
     
-    justify-content:center;
-    font-size: xx-large;
-    font-weight: 600;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    width: 100%;
-    margin-bottom: 10px;
-    padding-top: 100px;
- 
-
+    margin-top: 50px;
+    justify-content: space-evenly;
+    padding: 50px;
+    margin-bottom: 50px;
 }
-.paragraph{
-
-    color: whitesmoke;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    text-align: center;
-    margin-bottom: 40px;
-    width: 350px;
-    z-index: 100;
-    padding-left: 280px;
-
-   
-    
-}
-.donate{
-    border: 400px;
-    text-align: center;
-    color: azure;
-    border-radius: 5px;
-    text-decoration: none;
-    background-image: linear-gradient(rgb(250, 200, 114),rgb(246, 255, 71));
-    
+.card-container{
+    margin-top: 150px;
+    display: flex;
+    margin-left: 450px;
+    margin-right: 450px;
+    justify-content: space-evenly;
 }
 .card{
-    width: 80px;
-    height: 50px;
+    background-color: pink;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     border: 1px solid gray;
-    display: flex;
     text-align: center;
     border-radius:8px;
-    padding:20px;
     box-shadow: 9px 9px 9px gray;
     transition: 0.8ms;
+
 }
 .card:hover{
-    border: 1px;
+    color: brown;
+    border: 1px solid brown;
     transition: 0.8ms;
-    margin-top: -20px;
+    margin-top: -5px;
+
+
+}
+.other-amount{
+    width: 25%;
+    text-align: center;
+    margin-left: 510px;
+    margin-top: 130px;
+
+}
+.amount-input{
+  
+    border: none; 
+    border-width: 0; 
+    box-shadow: none;
+}
+.next-middle-container{
+    margin-top: 150px;
+
+}
+.card-image1{
+    
+
 
 }

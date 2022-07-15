@@ -14,16 +14,30 @@ h2{
     font-weight:700;
     margin-left: 580px;
 }
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 60px;
+    font-weight: bold;
+    font-size: 1.5rem ;
+    text-align: center;
+    
+}
+
+
 .paragraph{
     text-align: center;
     padding-left: 200px;
     padding-right: 150px;
-    color:rgb(203, 6, 39);
+    color:white;
+    font-size: x-large;
+}
+.colored-paragraph{
+    padding-left: 200px;
+    padding-right: 150px;
+    color:rgb(152, 16, 16);
     font-size: x-large;
     
-
 }
-
 .donate-button{
     margin-top: 120px;
     border: 15px;
@@ -112,6 +126,7 @@ h2{
     border-radius: 5px;
     text-align: center;
     box-shadow: 8px 8px 16px gray;
+    background-color: pink;
    
 }
 .card-image1:hover{
@@ -119,7 +134,7 @@ h2{
     transition: 0.8ms;
     margin-top: -20px;
 }
-.food-icon{
+.icon{
     width: 50px;
     
 }
@@ -136,4 +151,20 @@ h2{
 .container{
     display: flex;
     justify-content: space-evenly;
+}
+.icon{
+    width: 50px;
+}
+.icon{
+    width: 50px;
+}
+.survival1{
+    margin-top: 60px;
+    display: flex;
+}
+.image{
+    width: 50%;
+}
+.block1{
+    display: block;
 }

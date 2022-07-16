@@ -213,10 +213,31 @@ p{
 
 
 }
+.input.email{
+    border-radius: 3px;
+}
 
 .input-subscribe{
     background-color: red;
+
+    
+    border-radius: 3px;
+   
+    
 }
-.updates-container{
+.inputs-container{
     display: flex;
+    border: 50px;
+    border-color: burlywood;
+    align-items: center;
+}
+
+.font{
+    font-style: italic;
+}
+.humble-container{
+    display: flex;
+    padding-left: 30%;
+    text-align: center;
+    color: #999999;git add .
 }
